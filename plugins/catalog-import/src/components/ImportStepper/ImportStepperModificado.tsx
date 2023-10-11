@@ -17,7 +17,9 @@
 
 import { InfoCard, InfoCardVariants } from '@backstage/core-components';
 import { useApi } from '@backstage/core-plugin-api';
-import { Step, StepContent, Stepper } from '@material-ui/core';
+import {Step, StepContent, Stepper } from '@material-ui/core';
+
+
 import { makeStyles } from '@material-ui/core/styles';
 import React, { useMemo } from 'react';
 import { catalogImportApiRef } from '../../api';

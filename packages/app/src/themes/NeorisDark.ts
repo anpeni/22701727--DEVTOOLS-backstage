@@ -168,6 +168,19 @@ const createCustomThemeOverrides = (
         },
       },
     },
+    MuiStepIcon: {
+      root: {
+        color:'#062A57 !important',
+      },
+      active: {
+        color: 'white !important',
+      },
+      text: {
+        fill: 'black !important',
+        fontSize: '0.75rem !important',
+      },
+       
+    },
     MuiTable: {
       root: {
         '& th': {
