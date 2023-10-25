@@ -67,7 +67,7 @@ export const DefaultImportPage = () => {
       >
         GitHub Pages Website
       </span>
-      <div style={{marginLeft: '15px'}}>
+      <div style={{marginLeft: '-11px', marginTop:'-30px'}}>
         <ImportStepper />
       </div>
     </Grid>,

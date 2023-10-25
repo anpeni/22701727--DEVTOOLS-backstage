@@ -17,8 +17,7 @@
 
 import { InfoCard, InfoCardVariants } from '@backstage/core-components';
 import { useApi } from '@backstage/core-plugin-api';
-//import { Step, StepContent, Stepper } from '@material-ui/core';
-import { Step, StepContent, Stepper } from '@mui/material';
+import { Step, StepContent, Stepper } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import React, { useMemo } from 'react';
 import { catalogImportApiRef } from '../../api';
@@ -34,22 +33,21 @@ import {
 const useStyles = makeStyles(() => ({
   stepperRoot: {
     padding: 0,
-    //background:'red !important',
-    //color: 'red !important',
+
   },
   stepRoot: {
-    //color: 'red !important',
+
     
-    //background:'green !important',
+
   },
   stepContentRoot: {
-    //color: 'red !important',
+
     
-    //background:'red !important',
+
   },
   muiStepIcon: {
     active: {
-      //color:'green !important',
+
       
     },
   },
