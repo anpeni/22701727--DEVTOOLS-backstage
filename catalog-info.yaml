@@ -1,13 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: dso-backstage
-  description: Neoris applications.
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
+  name: "ap"
+  description: "ap"
+  annotations:
+    github.com/project-slug: anpeni/anpeni
+    backstage.io/techdocs-ref: dir:.
 spec:
-  type: website
-  owner: john@example.com
+  type: service
   lifecycle: experimental
+  owner: "group:default/anpeni"
