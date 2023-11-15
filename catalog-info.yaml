@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "ap"
-  description: "ap"
+  name: "back"
+  description: "back"
   annotations:
     github.com/project-slug: anpeni/anpeni
     backstage.io/techdocs-ref: dir:.
